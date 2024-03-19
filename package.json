@@ -2,7 +2,7 @@
   "name": "molecular-fingerprints",
   "version": "1.0.0",
   "description": "The package converts smiles to molecular fingerprints based on Morgan's fingerprints.",
-  "main": "index.ts",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "npm run test"
@@ -24,9 +24,12 @@
     "molecule"
   ],
   "author": "Jumanazar Nizamidinov",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/juman-myrza/molecular-fingerprints/issues"
   },
-  "homepage": "https://github.com/juman-myrza/molecular-fingerprints#readme"
+  "homepage": "https://github.com/juman-myrza/molecular-fingerprints#readme",
+  "devDependencies": {
+    "typescript": "5.4.2"
+  }
 }
