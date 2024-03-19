@@ -1,6 +1,6 @@
 {
   "name": "molecular-fingerprints",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The package converts smiles to molecular fingerprints based on Morgan's fingerprints.",
   "main": "./dist/index.js",
   "scripts": {

@@ -1,4 +1,4 @@
-class MolecularFingerprint {
+export default class MolecularFingerprint {
   private static BIT_VECTOR_SIZE = 1024
   private static RADIUS = 2
 
